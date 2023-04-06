@@ -3,7 +3,6 @@ let newInventoryCarTypes = ['StockCar', 'Refrigerator', 'StockCar', 'Lorrie', 'L
 let newInventoryYearBuilt = [1922, 2011, 1975, 2002, 1965, 1951]
 
 let i = 0
-
 while(i < newInventoryCarModels.length){
     console.log(`${newInventoryCarModels[i]} is of type: ${newInventoryCarTypes[i]}`)
     i++
@@ -11,7 +10,6 @@ while(i < newInventoryCarModels.length){
 
 let j = 0
 let typeS1Count = 0
-
 while(j < newInventoryCarModels.length){
     if(newInventoryCarModels[j] === 'S1'){
         typeS1Count++
@@ -31,7 +29,6 @@ for(let i = 0; i < newInventoryCarModels.length; i++){
 console.log(`I have found ${lorrieCount} lorries.`)
 
 let totalValue = 0
-
 for(let i = 0; i < newInventoryYearBuilt.length; i++){
     totalValue += (2022 - newInventoryYearBuilt[i])
 }
